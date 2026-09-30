@@ -31,14 +31,14 @@ This project implements the SAIT Medical Clinic scenario using **PostgreSQL**. I
 
 ### Relationships
 
-- Patient 1:M Appointment
-- Doctor 1:M Appointment
-- Appointment 0:1 Visit
-- Patient 1:M Medical History
-- Visit 1:1 Medical History
-- Visit 1:1 Bill
-- Patient 1:M Bill
-- Doctor 1:M Bill
+- Patient **one to Many** Appointment
+- Doctor **one to Many** Appointment
+- Appointment **zero to one** Visit
+- Patient **one to Many** Medical History
+- Visit **one to one** Medical History
+- Visit **one to one** Bill
+- Patient **one to Many** Bill
+- Doctor **one to Many** Bill
 
 ## PostgreSQL Implementation
 
